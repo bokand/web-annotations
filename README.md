@@ -12,9 +12,9 @@ This explainer is about making the web richer by allowing users (i.e. non-author
 
 ## Disclaimer
 
-This explainer aims to communicate a vision and guiding principles for how to bring annotations to a web browser. We discuss some of the issues and challenges that we foresee and sketch out some rough ideas for how solutions could look. None of this is meant to be taken as a complete or fully developed solution. In the spirit of open collaboration we’re putting this out in the open to start with the [problem we’re looking to solve](https://whatwg.org/faq#adding-new-features), rather than the solution.
+_This explainer aims to communicate a vision and guiding principles for how to bring annotations to a web browser. We discuss some of the issues and challenges that we foresee and sketch out some rough ideas for how solutions could look. None of this is meant to be taken as a complete or fully developed solution. In the spirit of open collaboration we’re putting this out in the open to start with the [problem we’re looking to solve](https://whatwg.org/faq#adding-new-features), rather than the solution._
 
-We’d appreciate and encourage feedback and critiques and expect this explainer to evolve as we iterate and learn.
+_We’d appreciate and encourage feedback and critiques and expect this explainer to evolve as we iterate and learn._
 
 ## What is annotation?
 
