@@ -123,8 +123,8 @@ Annotations for a page come from an **annotation source**. This is simply an opa
 Sources could be declared in many ways:
 
 * Users could configure them in the browser, or an extension’s settings page, so that each page load would query that source.
-* A source could be embedded in a URL, using the [fragment-directive](https://github.com/WICG/scroll-to-text-fragment#fragment-directive), e.g.: https://news.acme.com/story.html#:~:note=https://annotator.example.com
-* The URL itself can be a source by having the annotation content embedded directly: https://news.acme.org/story.html#:~:note(selector=foo,text=comment-on-foo)
+* A source could be embedded in a URL, using the [fragment-directive](https://github.com/WICG/scroll-to-text-fragment#fragment-directive), e.g.: `https://news.acme.com/story.html#:~:note=https://annotator.example.com`
+* The URL itself can be a source by having the annotation content embedded directly: `https://news.acme.org/story.html#:~:note(selector=foo,text=comment-on-foo)`
 * A page could specify an annotation source in markup, e.g.: `<link rel="annotation" href="/annotations">`
 
 When a page is loaded the browser will fetch from all the annotation sources it can find for the given page.
@@ -139,7 +139,7 @@ An **annotation surface** is a place where annotations can be displayed -- they 
 
 Authors should have some control over which annotations can be shown (at least by default) when their page is being viewed. We can provide declarative rules for which annotations should be allowed/blocked, based on the origin (or, in the case of URL embedded annotations, the referrer URL):
 
-```
+```JavaScript
 <script type=”annotationrules”>
   // Show only annotations coming from notes.example.com
   “Annotations”: [
@@ -153,7 +153,7 @@ Personal annotations, i.e. those created by the user and stored locally in their
 
 Extensions (and _maybe_ even pages) would need the data from the annotation to display in its own UI, rather than the browsers. This could be accomplished using a more granular, imperative API:
 
-```
+```JavaScript
 <script>
   window.addEventListener('annotationAdded', (e) => {
     if (e.annotatorUrl.origin == 'https://comments.custom-annotator.com') {
