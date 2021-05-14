@@ -1,6 +1,6 @@
 # WebAnnotation in the Browser
 
-Note: Please feel free to start disucssions or bring up feedback in issues (either existing or create new ones).
+_Note: Please feel free to start disucssions or bring up feedback in issues (either existing or create new ones). If you'd rather leave feedback non-publically reach out to bokan@chromium.org_
 
 ## Introduction
 
