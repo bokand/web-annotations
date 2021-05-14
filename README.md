@@ -1,5 +1,7 @@
 # WebAnnotation in the Browser
 
+Note: Please feel free to start disucssions or bring up feedback in issues (either existing or create new ones).
+
 ## Introduction
 
 Links are the web’s superpower. Being able to connect content to other related destinations is an incredibly powerful concept that led to the explosion and richness of the web. However, functionally, hyperlinks are largely unchanged from when they were introduced 30 years ago. They allow authors to link content, but only in a navigational sense and without preserving context; users are often left as passive observers and consumers. Increasingly, users are expecting and spending time in apps that provide a more interconnected experience, not just between content but with other users.
