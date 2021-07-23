@@ -1,5 +1,5 @@
 # WebAnnotation in the Browser
-Created: April 2021
+Created: April 2021  
 Modified: May 2021
 
 _Note: Please feel free to start disucssions or bring up feedback in issues (either existing or create new ones). If you'd rather leave feedback non-publically reach out to bokan@chromium.org_
