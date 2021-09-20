@@ -55,8 +55,8 @@ A critical piece is how to embed annotations into the URL. We propose that annot
   "target": {
     "Source": "http://example.org/article",
     "selector": {
-  "type": "TextQuoteSelector",
-  "exact": "fun with notes"
+      "type": "TextQuoteSelector",
+      "exact": "fun with notes"
     }
   }
 }
@@ -94,7 +94,7 @@ Questions:
 An obvious issue for URL-embedded notes is URL length. For example, the percent-encoded version of the example annotation above is:
 
 ```
-https://example.org#:~:note(content=%7B%22%40context%22%3A%22http%3A%2F%2Fwww.w3.org%2Fns%2Fanno.jsonld%22%2C%22id%22%3A%22http%3A%2F%2Flocalhost%2Fannotation%22%2C%22type%22%3A%22Annotation%22%2C%22body%22%3A%7B%22type%22%3A%22TextualBody%22%2C%22value%22%3A%22ThisisthecommentIwroteonthepage%22%7D%2C%22target%22%3A%7B%22Source%22%3A%22http%3A%2F%2Fexample.org%2Farticle%22%2C%22selector%22%3A%7B%22type%22%3A%22TextQuoteSelector%22%2C%22exact%22%3A%22funwithnotes%22%7D%7D%7D)
+https://example.org#:~:note(content=%7B%22%40context%22%3A%22http%3A%2F%2Fwww.w3.org%2Fns%2Fanno.jsonld%22%2C%22id%22%3A%22http%3A%2F%2Flocalhost%2Fannotation%22%2C%22type%22%3A%22Annotation%22%2C%22body%22%3A%7B%22type%22%3A%22TextualBody%22%2C%22value%22%3A%22This%20is%20the%20comment%20I%20wrote%20on%20the%20page%22%7D%2C%22target%22%3A%7B%22Source%22%3A%22http%3A%2F%2Fexample.org%2Farticle%22%2C%22selector%22%3A%7B%22type%22%3A%22TextQuoteSelector%22%2C%22exact%22%3A%22fun%20with%20notes%22%7D%7D%7D)
 ```
 
 We could shorten these by making some boilerplate implicit. Another idea is to specify a compression scheme. Using a compression scheme + base64 encoding has two advantages: compressed data and no percent-encoding expansion. Here’s an example of the above note after Brotli compression in base64:
