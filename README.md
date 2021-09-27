@@ -196,12 +196,12 @@ UI is generally the purview of the user agent so not something we’d specify. H
 ![Mockup of user flow: sharing a URL over chat leads to a page with several passages highlighted. Clicking on a highlight opens a side bar in browser UI with a user's comment about the clicked passage](explainer_images/annotation_mock2.png)
 
 ## Prior Art
-dokieli: https://dokie.li/#annotate
-Genius: https://genius.com/Genius-how-genius-works-annotated 
-Google SideWiki: https://en.wikipedia.org/wiki/Google_Sidewiki
-Firefox: https://wiki.mozilla.org/Firefox/Feature_Brainstorming:Notes_and_Annotations  
-Hypothesis: https://web.hypothes.is/  
-Mosaic: http://1997.webhistory.org/www.lists/www-talk.1993q2/0416.html 
-WebAnnotation: https://www.w3.org/TR/annotation-model/  
-WordPress pingback: https://wordpress.com/support/comments/pingbacks/  
+* dokieli: https://dokie.li/#annotate
+* Genius: https://genius.com/Genius-how-genius-works-annotated 
+* Google SideWiki: https://en.wikipedia.org/wiki/Google_Sidewiki
+* Firefox: https://wiki.mozilla.org/Firefox/Feature_Brainstorming:Notes_and_Annotations  
+* Hypothesis: https://web.hypothes.is/  
+* Mosaic: http://1997.webhistory.org/www.lists/www-talk.1993q2/0416.html 
+* WebAnnotation: https://www.w3.org/TR/annotation-model/  
+* WordPress pingback: https://wordpress.com/support/comments/pingbacks/  
 
