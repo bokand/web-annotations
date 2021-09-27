@@ -1,8 +1,12 @@
 # WebAnnotation in the Browser
 Created: April 2021  
-Modified: May 2021
+Modified: Sept 2021
 
 _Note: Please feel free to start disucssions or bring up feedback in issues (either existing or create new ones). If you'd rather leave feedback non-publically reach out to bokan@chromium.org_
+
+This document lays out the problem space and vision of what annotation in a browser could be.
+
+We've put together a concrete proposal as a first step in [URL based annotation](https://github.com/bokand/web-annotations/blob/main/URL-based-annotation.md) which would allow embedding annotations into a URL.
 
 ## Introduction
 
